@@ -17,7 +17,8 @@
     "terminal-magenta": "#bb9af7",
     "blue-black": "#565f89",
     "terminal-black": "#414868",
-    "t-background": "p:main-bg"
+    "t-background": "p:main-bg",
+    "kubernetes-blue": "#326CE5"
   },
   "blocks": [
     {
@@ -54,6 +55,12 @@
             "fetch_status": true,
             "branch_icon": "\ue725 "
           }
+        },
+        {
+          "type": "kubectl",
+          "style": "plain",
+          "foreground": "p:kubernetes-blue",
+          "template": "(󱃾 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}})"
         },
         {
           "type": "status",
