@@ -8,5 +8,5 @@ alias bb-proxy='export ALL_PROXY=http://webproxy.infra.backbase.cloud:8888
     export ftp_proxy=$ALL_PROXY
     export rsync_proxy=$ALL_PROXY'
 alias db='code ~/code/bhadresh_backbase/mssql-db/'
-alias ij='/Applications/IntelliJ IDEA CE.app/Contents/MacOS/idea'
+alias ij='/Applications/IntelliJ\ IDEA\ CE.app/Contents/MacOS/idea'
 alias jb='code ~/Clients/JB'
